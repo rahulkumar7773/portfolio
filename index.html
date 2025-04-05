@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rahul</title>
+  <!-- custom css -->
+  <link rel="stylesheet" href="portfolio.css" />
+  <!-- font icons link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <nav>
+    <!-- nav logo -->
+    <div class="nav-logo">
+      <a href="#">Rahul.</a>
+    </div>
+    <!-- nav link -->
+
+    <div class="nav-links" id="navbarLinks">
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="bars">
+      <a href="#" class="toggle-button" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></a>
+    </div>
+  </nav>
+  <!-- hero section -->
+  <section id="hero">
+    <div class="hero">
+      <div class="hero-left">
+        <img src="images/herobg.png" alt="hero-bg" />
+      </div>
+      <div class="hero-right">
+        <span class="hello">👋 Hello, World!</span>
+        <h1>
+          I'm Rahul <br />
+          <span class="hero-heading">Full-Stack Developer</span>
+        </h1>
+        <p>
+          "Skilled web designer and developer creating responsive, user-friendly websites and applications."
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- About section -->
+  <section id="about">
+    <div class="about">
+      <div class="about-left">
+        <p>
+          <span>"</span>Web design and development focuses on creating visually appealing, functional websites. It
+          combines user
+          experience (UX) design, responsive layouts, coding, and optimization to deliver seamless, engaging digital
+          experiences.<span>"</span>
+        </p>
+        <h5>By Rahul kumar</h5>
+      </div>
+      <div class="about-right">
+        <img src="images/aboutbg.png" alt="about-bg" />
+      </div>
+    </div>
+  </section>
+  <!-- Work section -->
+  <section id="work">
+    <div class="work">
+      <div class="work-body">
+        <div class="work-head">
+          <span>WORK SKILLS</span>
+          <p>I dedicate myself to regularly improving my abilities.</p>
+        </div>
+        <div class="work-item">
+          <img src="images/work1.png" alt="HTML" />
+          <h2>HTML</h2>
+          <p>
+            "Proficient in HTML, creating structured, semantic web pages with
+            clean code, responsive design, and optimized user experience."
+          </p>
+        </div>
+        <div class="work-item">
+          <img src="images/work2.png" alt="CSS" />
+          <h2>CSS</h2>
+          <p>
+            "Skilled in CSS, crafting responsive, visually appealing layouts
+            with advanced styling, animations, and cross-browser compatibility
+            for seamless design."
+          </p>
+        </div>
+        <div class="work-item">
+          <img src="images/pngwing.com (2).png" alt="JS" />
+          <h2>JavaScript</h2>
+          <p>
+            "Experienced in JavaScript, building dynamic, interactive websites
+            with efficient code, DOM manipulation, APIs, and seamless user
+            interactions."
+          </p>
+        </div>
+        <div class="work-item">
+          <img src="images/pngwing.com (3).png" alt="" />
+          <h2>PHP</h2>
+          <p>
+            "PHP is a powerful scripting language I've worked with extensively for web development, creating dynamic
+            websites and seamless database interactions."
+          </p>
+        </div>
+        <div class="work-item">
+          <img src="images/pngwing.com.png" alt="SQL">
+          <h2>SQL</h2>
+          <p>"SQL is a key tool I've mastered for managing and querying databases, enabling efficient data retrieval and
+            manipulation in my projects."</p>
+        </div>
+        <div class="work-item">
+          <img src="images/bootstarp.png" alt="Bootstrap" style="padding: 15px;">
+          <h2>BOOTSTRAP</h2>
+          <p>"Bootstrap is my go-to framework for building responsive, mobile-first websites quickly, ensuring clean,
+            modern designs with minimal effort."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact section -->
+  <section id="contact">
+    <div class="contact">
+      <div class="contact-part">
+        <div class="contact-img">
+          <img src="https://static.archerdxp.io/cms/c11e4ccd-8d94-41bc-9b79-e9e4c687ee14.jpg" alt="contact-img">
+        </div>
+        <div class="form">
+          <h2>Contact As</h2>
+          <form method="post">
+            <label for="name">Full Name:<label><br>
+                <input type="text" name="name" placeholder="Enter Name" required><br>
+                <label for="Email">Email:</label><br>
+                <input type="email" name="email" placeholder="Enter Email" required><br>
+                <label for="number">Phone number:</label><br>
+                <input type="text" name="number" placeholder="Enter phone number" required><br>
+                <label for="text">Message:</label><br>
+                <textarea name="send sMessage"></textarea><br><br>
+                <div class="button">
+                  <input type="submit" value="submit" id="submit">
+                  <input type="reset" value="Reset" id="reset">
+                </div>
+          </form>
+        </div>
+      </div>
+
+  </section>
+
+  <script src="portofolio.js"></script>
+</body>
+
+</html>
