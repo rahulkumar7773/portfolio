@@ -134,8 +134,9 @@
         </div>
         <div class="form">
           <h2>Contact As</h2>
-          <form method="post">
+          <form action="https://api.web3forms.com/submit" method="POST">
             <label for="name">Full Name:<label><br>
+              <input type="hidden" name="access_key" value="e127addd-2959-4898-95b5-050559c884bd">
                 <input type="text" name="name" placeholder="Enter Name" required><br>
                 <label for="Email">Email:</label><br>
                 <input type="email" name="email" placeholder="Enter Email" required><br>
@@ -145,7 +146,7 @@
                 <textarea name="send sMessage"></textarea><br><br>
                 <div class="button">
                   <input type="submit" value="submit" id="submit">
-                  <input type="reset" value="Reset" id="reset">
+        
                 </div>
           </form>
         </div>
