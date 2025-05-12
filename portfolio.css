@@ -40,7 +40,10 @@ nav {
 }
 
 .nav-logo a {
-    color: var(--text-color);
+    background: linear-gradient(45deg, rgb(176, 82, 230), rgb(250, 163, 2), rgb(250, 45, 58));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: var(--text-color); */
     font-size: 25px;
     font-weight: 700;
 }
